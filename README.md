@@ -11,7 +11,7 @@ Este proyecto es una aplicación simple de notas desarrollada en React que permi
 
 ## Instrucciones de Uso
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/app-notas.git`
+1. Clona este repositorio: `git clone https://github.com/nilerdar/app-notas.git`
 2. Navega al directorio del proyecto: `cd app-notas`
 3. Instala las dependencias: `npm install`
 4. Ejecuta la aplicación: `npm start`
@@ -26,7 +26,7 @@ Este proyecto es una aplicación simple de notas desarrollada en React que permi
 ## Tecnologías Utilizadas
 
 - React
-- Bootstrap (opcional, si se aplica)
+- Bootstrap
 - HTML/CSS
 
 ## Contribución
