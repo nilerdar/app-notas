@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Aplicación de Notas con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación simple de notas desarrollada en React que permite a los usuarios crear, ver, editar y eliminar notas. Utiliza componentes funcionales, propiedades (props) y Hooks como useState, useEffect para gestionar el estado y el ciclo de vida de los componentes.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Lista de Notas**: Muestra todas las notas existentes.
+- **Editor de Notas**: Permite agregar y editar notas.
+- **Eliminación de Notas**: Permite eliminar notas existentes.
+- **Búsqueda de Notas**: Filtra notas por título o contenido.
 
-### `npm start`
+## Instrucciones de Uso
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona este repositorio: `git clone https://github.com/tu-usuario/app-notas.git`
+2. Navega al directorio del proyecto: `cd app-notas`
+3. Instala las dependencias: `npm install`
+4. Ejecuta la aplicación: `npm start`
+5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estructura del Proyecto
 
-### `npm test`
+- **src/**
+  - **components/**: Contiene los componentes de la aplicación (NoteList, Note, NoteEditor, etc.).
+  - **App.js**: Componente principal que maneja el estado de las notas y la interfaz.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologías Utilizadas
 
-### `npm run build`
+- React
+- Bootstrap (opcional, si se aplica)
+- HTML/CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribución
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Si deseas contribuir a este proyecto, sigue estos pasos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y confirma (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
-### `npm run eject`
+## Autor
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Nombre: Dario Llodra
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licencia
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la licencia [MIT License](https://opensource.org/licenses/MIT).
